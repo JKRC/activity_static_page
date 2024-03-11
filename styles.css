@@ -1,0 +1,18 @@
+body {
+    padding-top: 56px; /* Adjusted for fixed-top navbar */
+}
+
+#home {
+    height: 100vh;
+    background: url('your-background-image-url.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about, #contact {
+    min-height: 100vh;
+}
